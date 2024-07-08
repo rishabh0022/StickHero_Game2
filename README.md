@@ -33,11 +33,7 @@ This is an enhanced version of the classic Stick Hero game built using JavaFX. T
     ```sh
     git clone https://github.com/rishabh0022/StickHero_Game2.git
     ```
-2. **Navigate to the project directory**:
-    ```sh
-    cd stick-hero-game
-    ```
-3. **Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse) and run the `HelloApplication` file inside the `src` folder to start the game**.
+2. **Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse) and run the `HelloApplication` file inside the `src` folder to start the game**.
 
 ## Usage
 - **Start Game**: Click the PlayButton.
