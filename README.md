@@ -48,9 +48,6 @@ This is an enhanced version of the classic Stick Hero game built using JavaFX. T
 ## Contributing
 If you want to contribute to this project, please fork the repository and create a pull request with your changes.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 ## Acknowledgements
 - Original Stick Hero game for the inspiration.
 - JavaFX community for the resources and documentation.
