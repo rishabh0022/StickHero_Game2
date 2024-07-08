@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle fill="DODGERBLUE" layoutX="105.0" layoutY="127.0" radius="17.0" stroke="BLACK" strokeType="INSIDE" translateY="-50.0" />
+      <Line endX="56.47251892089844" endY="-0.17049825191497803" layoutX="224.0" layoutY="179.0" rotate="90.0" scaleY="3.0" startX="-28.884952545166016" startY="0.07730269432067871" stroke="#f20b0b" translateX="-100.0" translateY="-70.0" />
+      <Polygon fill="DODGERBLUE" layoutX="105.0" layoutY="303.0" stroke="BLACK" strokeType="INSIDE" translateY="-150.0">
+        <points>
+          <Double fx:value="-50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="50.0" />
+          <Double fx:value="40.0" />
+          <Double fx:value="0.0" />
+          <Double fx:value="-60.0" />
+        </points>
+      </Polygon>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fffdfd" height="109.0" layoutX="302.0" layoutY="190.0" scaleX="0.25" stroke="BLACK" strokeType="INSIDE" width="432.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fffbfb" height="100.0" layoutX="22.0" layoutY="193.0" stroke="BLACK" strokeType="INSIDE" width="146.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="109.0" layoutX="366.0" layoutY="190.0" stroke="BLACK" strokeType="INSIDE" width="34.0" />
+      <Button layoutX="518.0" layoutY="25.0" mnemonicParsing="false" text="PAUSE" />
+      <Button layoutX="518.0" layoutY="65.0" mnemonicParsing="false" text="MENU" />
+      <Canvas fx:id="gameCanvas" height="279.0" layoutX="41.0" layoutY="21.0" width="342.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<?import com.example.stick_hero_ap_game_2023.Player?>
+<?import com.example.stick_hero_ap_game_2023.Stick?>
+<?import com.example.stick_hero_ap_game_2023.Cherry?>
+<AnchorPane maxHeight="-Infinity" maxWidth="1564.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="854.0" prefWidth="1564.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stick_hero_ap_game_2023.Playagame">
+   <children>
+      <Pane fx:id="gamePane" layoutX="20.0" layoutY="-12.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="770.0" prefWidth="1473.0" AnchorPane.bottomAnchor="-223.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="-531.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="background" fitHeight="645.0" fitWidth="1499.0" layoutX="14.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true" scaleY="1.25">
+               <image>
+                  <Image url="@img_1.png" />
+               </image>
+            </ImageView>
+            <Rectangle fx:id="building1" arcHeight="5.0" arcWidth="5.0" fill="#000408" height="200.0" layoutX="373.0" layoutY="599.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Rectangle fx:id="standing_building" arcHeight="5.0" arcWidth="5.0" fill="#000408" height="200.0" layoutX="32.0" layoutY="599.0" stroke="BLACK" strokeType="INSIDE" width="149.0" />
+            <Player fx:id="player" fitHeight="72.0" fitWidth="200.0" layoutX="70.0" layoutY="527.0" onMousePressed="#onMouseDragged" onMouseReleased="#onMousedropReleased" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@stick_hero_player-removebg-preview.png" />
+               </image>
+            </Player>
+            <Cherry fx:id="cherry1" fitHeight="47.0" fitWidth="214.0" layoutX="217.0" layoutY="599.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cerry-clipart-15.jpg" />
+               </image>
+            </Cherry>
+            <Cherry fx:id="cherry2" fitHeight="47.0" fitWidth="214.0" layoutX="323.0" layoutY="599.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cerry-clipart-15.jpg" />
+               </image>
+            </Cherry>
+            <Text fx:id="cherry_score" fill="#15e72a" layoutX="502.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font name="Franklin Gothic Heavy" size="36.0" />
+               </font>
+            </Text>
+            <Stick fx:id="stick" arcHeight="5.0" arcWidth="5.0" fill="#94550e" height="81.0" layoutX="135.0" layoutY="498.0" onMousePressed="#onMousePressed" onMouseReleased="#onMouseReleased" stroke="BLACK" strokeType="INSIDE" width="6.0" />
+            <Button fx:id="home" layoutX="896.0" layoutY="55.0" mnemonicParsing="false" onAction="#goBackToHome" text="MENU" />
+            <Button layoutX="896.0" layoutY="106.0" mnemonicParsing="false" text="SAVE" />
+            <Cherry fx:id="cherry3" fitHeight="47.0" fitWidth="214.0" layoutX="477.0" layoutY="599.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cerry-clipart-15.jpg" />
+               </image>
+            </Cherry>
+            <Text layoutX="333.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SCORE:" wrappingWidth="154.99999999999994">
+               <font>
+                  <Font name="Arial Black" size="36.0" />
+               </font>
+            </Text>
+            <Text fx:id="revive" fill="#1c40df" layoutX="355.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="111.13671875">
+               <font>
+                  <Font name="Elephant" size="36.0" />
+               </font>
+            </Text>
+         </children></Pane>
+   </children>
+</AnchorPane>

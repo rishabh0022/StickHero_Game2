@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="573.0" prefWidth="667.0" spacing="20.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stick_hero_ap_game_2023.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <ImageView fitHeight="180.0" fitWidth="348.0" pickOnBounds="true" preserveRatio="true">
+    <image>
+        <Image url="@game_icon.png" />
+    </image>
+</ImageView>
+   <Text lineSpacing="2.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LET'S PLAY" underline="true" wrappingWidth="269.0000007748604">
+      <font>
+         <Font name="Bell MT" size="48.0" />
+      </font>
+   </Text>
+   <Text fill="#a40505" stroke="#3b0303" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="2.0" text="STICK HERO" textAlignment="JUSTIFY" underline="true" wrappingWidth="195.02734971046448">
+      <font>
+         <Font name="Britannic Bold" size="36.0" />
+      </font>
+   </Text>
+   <Button fx:id="settings" mnemonicParsing="false" onAction="#onSettingClick" prefHeight="40.0" prefWidth="96.0" text="SETTINGS" underline="true">
+      <font>
+         <Font name="Bernard MT Condensed" size="18.0" />
+      </font>
+      <effect>
+         <SepiaTone>
+            <input>
+               <DropShadow />
+            </input>
+         </SepiaTone>
+      </effect></Button>
+   <Button fx:id="play_a_game" mnemonicParsing="false" onAction="#onPlayButton" prefHeight="34.0" prefWidth="154.0" text="PLAY GAME" translateY="20.0" underline="true">
+      <font>
+         <Font name="Berlin Sans FB Demi Bold" size="18.0" />
+      </font>
+      <effect>
+         <DropShadow>
+            <input>
+               <SepiaTone />
+            </input>
+         </DropShadow>
+      </effect></Button>
+</VBox>

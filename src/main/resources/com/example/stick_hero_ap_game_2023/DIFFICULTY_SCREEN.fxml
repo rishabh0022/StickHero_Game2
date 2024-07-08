@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="441.0" prefWidth="249.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.stick_hero_ap_game_2023.DIFFICULTY_SCREEN">
+   <children>
+      <Label layoutX="180.0" layoutY="41.0" prefHeight="38.0" prefWidth="302.0" text="CHOOSE YOUR DIFFICULTY" textAlignment="CENTER" textFill="#df0101" translateX="-30.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="57.0" layoutY="126.0" prefWidth="150.0" />
+      <ButtonBar layoutX="180.0" layoutY="312.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button fx:id="home" mnemonicParsing="false" onAction="#goBackToHome" text="HOME" translateX="-90.0" />
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>
