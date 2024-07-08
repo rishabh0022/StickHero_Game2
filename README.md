@@ -31,7 +31,7 @@ This is an enhanced version of the classic Stick Hero game built using JavaFX. T
 ## Installation
 1. **Clone the repository**:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/rishabh0022/StickHero_Game2.git
     ```
 2. **Navigate to the project directory**:
     ```sh
