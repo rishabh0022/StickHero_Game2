@@ -27,6 +27,11 @@ This is an enhanced version of the classic Stick Hero game built using JavaFX. T
     - Multiple threads are created for different actions:
         - `rotateStickTimeline()`: Rotates the stick.
         - `moveCharacterTimeline()`: Moves the character from one building to another.
+### Design Patterns Used
+
+- **Singleton Pattern**: The game utilizes the Singleton design pattern to manage key resources and ensure that only one instance of critical game components is created and used throughout the game lifecycle. This approach prevents the unnecessary duplication of objects and ensures consistent behavior across different parts of the application.
+
+- **Flyweight Pattern**: To optimize memory usage and improve game performance, the Flyweight pattern is used for managing multiple objects that share the same properties. For example, game elements that have repetitive characteristics, such as background elements or in-game assets, are shared between different parts of the game, reducing memory overhead while still providing necessary functionality.
 
 ## Installation
 1. **Clone the repository**:
