@@ -1,7 +1,7 @@
 # Stick Hero Game
 
 ## Overview
-This is an enhanced version of the classic Stick Hero game built using JavaFX. The game includes additional features like sound effects, multiple cherry collections, high score retrieval, improved graphics, and more. Object-Oriented Programming (OOP) principles such as Serialization and Inheritance have been utilized to structure the code efficiently.
+This is an enhanced version of the classic Stick Hero game built using JavaFX. The game includes additional features like sound effects, multiple cherry collections, high score retrieval, improved graphics, and more. Object-Oriented Programming (OOP) principles such as Serialization and Inheritance have been utilized to structure the code efficiently, integrated JUnit Testing.
 
 ## Features
 - **Sound Effects**: Experience real-time sound effects for actions like walking and increasing stick length.
@@ -9,6 +9,7 @@ This is an enhanced version of the classic Stick Hero game built using JavaFX. T
 - **High Score Retrieval**: Save and view high scores through a settings menu.
 - **Automatic Revival**: The player is revived automatically if sufficient points are available, at the cost of two cherry points.
 - **Game Over**: The game ends when the player’s score reaches zero.
+- **JUnit Testing**: Added tests for testing the design patterns
 
 ## Game Mechanics
 1. **Starting the Game**:
